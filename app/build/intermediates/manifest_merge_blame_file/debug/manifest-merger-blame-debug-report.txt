@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="batman.alfred"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:6:5-68
+12-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+13-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:7:5-75
+13-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:7:22-72
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-database:16.0.4] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/d907b6534b5dd6d7ad814de65e501d90/firebase-database-16.0.4/AndroidManifest.xml:22:5-79
+14-->[com.google.firebase:firebase-database:16.0.4] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/d907b6534b5dd6d7ad814de65e501d90/firebase-database-16.0.4/AndroidManifest.xml:22:22-76
+15
+16    <application
+16-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:9:5-34:19
+17        android:allowBackup="true"
+17-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:10:9-35
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:14:9-35
+23        android:theme="@style/AppTheme" >
+23-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:15:9-40
+24        <activity android:name="batman.alfred.MainActivity" />
+24-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:16:9-50
+24-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:16:19-47
+25        <activity
+25-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:17:9-18:40
+26            android:name="batman.alfred.ControlLightsActivity"
+26-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:17:19-56
+27            android:noHistory="true" />
+27-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:18:13-37
+28        <activity
+28-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:19:9-21:20
+29            android:name="batman.alfred.WakeMeActivity"
+29-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:19:19-49
+30            android:noHistory="true" >
+30-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:20:13-37
+31        </activity>
+32        <activity android:name="batman.alfred.WelcomeScreenActivity" >
+32-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:22:9-28:20
+32-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:22:19-56
+33            <intent-filter>
+33-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:24:17-69
+34-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:24:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:26:17-77
+36-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="batman.alfred.AlarmRingingActivity" />
+39-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:29:9-58
+39-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:29:19-55
+40
+41        <receiver android:name="batman.alfred.AlertReceiver" />
+41-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:31:9-50
+41-->/Users/sarthak/Desktop/Alfred-master/Alfred/app/src/main/AndroidManifest.xml:31:19-48
+42
+43        <meta-data
+43-->[com.android.support:appcompat-v7:26.1.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/c75396a37b5317cd45625cc4518aa2ba/appcompat-v7-26.1.0/AndroidManifest.xml:26:9-28:38
+44            android:name="android.support.VERSION"
+44-->[com.android.support:appcompat-v7:26.1.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/c75396a37b5317cd45625cc4518aa2ba/appcompat-v7-26.1.0/AndroidManifest.xml:27:13-51
+45            android:value="26.1.0" />
+45-->[com.android.support:appcompat-v7:26.1.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/c75396a37b5317cd45625cc4518aa2ba/appcompat-v7-26.1.0/AndroidManifest.xml:28:13-35
+46
+47        <activity
+47-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+48            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+48-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+49            android:excludeFromRecents="true"
+49-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+50            android:exported="true"
+50-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+51            android:launchMode="singleTask"
+51-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+52            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+52-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+54
+55        <service
+55-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+56            android:name="com.google.firebase.components.ComponentDiscoveryService"
+56-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+58            <meta-data
+58-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+59                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+59-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-auth:16.0.5] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/7ea8283b693d8e7309b627a52eb43ed6/firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+61        </service>
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:16.0.1] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/6ed376ce3d4826f20aa4fd94474c04d3/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:16.0.1] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/6ed376ce3d4826f20aa4fd94474c04d3/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:16.0.1] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/6ed376ce3d4826f20aa4fd94474c04d3/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:16.0.1] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/6ed376ce3d4826f20aa4fd94474c04d3/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+67
+68        <provider
+68-->[com.google.firebase:firebase-common:16.0.3] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+69            android:name="com.google.firebase.provider.FirebaseInitProvider"
+69-->[com.google.firebase:firebase-common:16.0.3] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+70            android:authorities="batman.alfred.firebaseinitprovider"
+70-->[com.google.firebase:firebase-common:16.0.3] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+71            android:exported="false"
+71-->[com.google.firebase:firebase-common:16.0.3] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+72            android:initOrder="100" />
+72-->[com.google.firebase:firebase-common:16.0.3] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/958e56cc1521f372b2825754399e9ddb/firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:16.1.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/05ee08e1b7b68059f39aa5dfc2445563/play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:16.1.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/05ee08e1b7b68059f39aa5dfc2445563/play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:16.1.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/05ee08e1b7b68059f39aa5dfc2445563/play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+77        <meta-data
+77-->[android.arch.lifecycle:runtime:1.0.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/20374d649b592c76371ea2e992b5bbca/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+78            android:name="android.arch.lifecycle.VERSION"
+78-->[android.arch.lifecycle:runtime:1.0.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/20374d649b592c76371ea2e992b5bbca/runtime-1.0.0/AndroidManifest.xml:26:13-58
+79            android:value="27.0.0-SNAPSHOT" />
+79-->[android.arch.lifecycle:runtime:1.0.0] /Users/sarthak/.gradle/caches/transforms-2/files-2.1/20374d649b592c76371ea2e992b5bbca/runtime-1.0.0/AndroidManifest.xml:27:13-44
+80    </application>
+81
+82</manifest>

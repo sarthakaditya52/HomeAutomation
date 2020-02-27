@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "598658940932",
+    "firebase_url": "https://alfred-a1784.firebaseio.com",
+    "project_id": "alfred-a1784",
+    "storage_bucket": "alfred-a1784.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598658940932:android:d56d66e682416a6c217551",
+        "android_client_info": {
+          "package_name": "batman.alfred"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598658940932-i53lcpqc5b1ndm0u7jbgtrqfm6bd055i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "batman.alfred",
+            "certificate_hash": "6efbab9bdda8e172daf0c7daa77b09d3e5b6aeaf"
+          }
+        },
+        {
+          "client_id": "598658940932-akihnaibhcgi7k32ddnu48au2o3thskt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD3SBDLe8Oa01_blFjt0X_jDqCLKyx15U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598658940932-akihnaibhcgi7k32ddnu48au2o3thskt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
